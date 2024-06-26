@@ -42,3 +42,31 @@ useEffect hook(pre-defined func)
 ~state lifting)
 --------------
 -it is a method of data sharing between mutliple componets which doesn't exist as a parent and child relation. Here the data sharing happens by lifting the state into the parent component and then passing it done to the component which want to share data.
+
+~team work in github
+--------------------
+-create a repository
+-connecting teammate-:- settings->collaborate->add people->search and select team-mate
+-clone comment:- git clone url
+
+-check branch
+----------------
+git init
+comment - git branch
+
+-creating branch
+-----------------
+comment - git branch name(any)
+git checkout name(any)
+ git push origin name(any)
+
+-master should create pull request
+----------------------------------
+again create pull request
+merge pull request
+confirm
+
+-in leader comment - git pull url
+
+
+
