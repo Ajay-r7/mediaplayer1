@@ -1,0 +1,44 @@
+json-server
+-----------
+-it is lightweight and easy-to-use node.js tool that simulates a RestFulAPI using a json file as the data source.
+-with json server,frontend developer can create mock api's without the need to write complex server-side code or when the backend api isn't ready.
+-it support http request like GET,POST,PUT and DELETE for perfoming CRUD operation
+
+how to create a json server
+---------------------------
+
+-create a folder and install package.json file using npm init -y.
+-install json server library - npm i json-server.
+-create index.js file.
+-in frontend index.html is the main file,in backend index.js is the only running file
+-update the script key in package.json with start command to run the application(index.js)
+
+axios
+-----
+
+-js library for api call
+-based on promise
+-then()- successfull
+-catch()- error
+
+useEffect hook(pre-defined func)
+--------------
+
+-The useEffect Hook allows you to perform side effects in your components.
+
+-side effect:- those activities which effect pure function of a react application.eg:- fetching data
+
+-Some examples of side effects are: fetching data, directly updating the DOM, and timers.
+
+-useEffect accepts two arguments. The second argument is optional.
+
+-useEffect(<function>, <dependency>).
+
+)- dependency :- 
+1) no dependency - call the useEffect in every render
+2) empty array - call the useEffect in the first render
+3) props,state - call the useEffect in the first render as well as when the value of props or state changes.
+
+~state lifting)
+--------------
+-it is a method of data sharing between mutliple componets which doesn't exist as a parent and child relation. Here the data sharing happens by lifting the state into the parent component and then passing it done to the component which want to share data.
